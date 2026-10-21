@@ -1,6 +1,6 @@
 # EaglerModpack 1.12.2
 
-### A Modern Implementation Of The Forge Modloader Accompanied By Some Ported Mods
+### A Modern Implementation Of The Forge Modloader In Eaglercraft Accompanied By Some Ported Mods
 
 Created by @radmanplays, with major contributions from @BendieGames and other contributors
 
