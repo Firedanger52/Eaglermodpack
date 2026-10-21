@@ -38,13 +38,13 @@ Using Compatible Programs And Mods Such As Mincecraft FML (Forge) Server, Veloci
 - **Download And Make A 1.12.2 Mincecraft Minecraft FML (Forge) Server [Link To Best Fit Here](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html).**
 - **Set Server To Offline Mode**
 - **Add Desired Mods Enabled On Client (EaglerXOpts) (Ex. Create Legacy, JEI) (Incompat Ex. HWYLA)**
-- **Add eaglerbridge-forge-2.0.0.jar In Your Forge Mod List**
+- **Add eaglerbridge-forge-2.0.0.jar (Located In EaglerBridge Folder) In Your Forge Mod List**
 - **Change Port To Something Different From 25565 (Ex. 25566)**
 
 ### Step 2, Make A Velocity Proxy
 - **Download The Latest Velocity Server [Link To Downloads Page Here](https://papermc.io/downloads/velocity)**
 - **Add EaglerXServer [Link To That Here](https://github.com/lax1dude/eaglerxserver) And Add The Base Mod To Your Mods Folder (You Can Add Optional Mods)**
-- **Add eaglerbridge-velocity-2.0.0.jar To Enable EaglerModpack 1.12.2 FML Protocol Transfer Support**
+- **Add eaglerbridge-velocity-2.0.0.jar (Located In EaglerBridge Folder) To Enable EaglerModpack 1.12.2 FML Protocol Transfer Support**
 - **Go Inside The Main Toml And Make Sure 25566 Is a Primary Lobby Server So Velocity Connects**
 - **Make Velocity Offline Mode**
 
@@ -56,7 +56,7 @@ Using Compatible Programs And Mods Such As Mincecraft FML (Forge) Server, Veloci
 -->
 
 > [!IMPORTANT]
-> If You Want MelonLib In Your Server For Create Legacy Support You Need A Companion Mod In Velocity Called **eaglerbridge-melonlib-2.0.0.jar** To Allow MelonLib Translation
+> If You Want MelonLib In Your Server For Create Legacy Support You Need A Companion Mod In Velocity Called **eaglerbridge-melonlib-2.0.0.jar** (Located In EaglerBridge Folder) To Allow MelonLib Translation
 
 > [!CAUTION]
 > It Is Not Reccomended To Use The Older EaglerXBungee Or EaglerXVelocity Server Implementation Methods As They Break Some Mechanics And Are Deprecated And Abandoned
