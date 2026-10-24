@@ -2,10 +2,10 @@
 
 ### A Modern Implementation Of The Forge Modloader In Eaglercraft 1.12.2 Accompanied By Some Ported Mods
 
-Created by @radmanplays, with major contributions from @BendieGames and other contributors
+Created By @radmanplays, With Support From The Community
 
 > [!WARNING]
-> This Project Is Not Affiliated With LAX1DUDE's Eaglercraft 1.6.4 Modpack. EaglerModpack 1.12.2 Is A Separate Project Targeting Mincecraft 1.12.2.
+> This Project Is Not Affiliated With LAX1DUDE's Eaglercraft 1.6.4 Modpack. EaglerModpack 1.12.2 Is A Separate Project Targeting Minecraft 1.12.2.
 
 ## Technical Features
 
@@ -24,18 +24,22 @@ Created by @radmanplays, with major contributions from @BendieGames and other co
 ## Downloads
 Visit The [Releases](https://github.com/radmanplays/Eaglermodpack/releases) Page To Download The Latest WASM Build. Updates Are Released Periodically And Do Not Follow A Fixed Schedule.
 
+## How To Enable/Disable Mods?
+In EaglerModpack 1.12.2 The Way To Enable Or Disable Mods Is Eesier Than You Think.
+
+
 ## Dedicated Server Setup
 EaglerModpack 1.12.2 Is One Of The Few Eaglercraft FML (Forge) Implementations To Have Full Server Support
-Using Compatible Programs And Mods Such As Mincecraft FML (Forge) Server, Velocity, EaglerXServer, And Appropriate EaglerBridge JAR Mods
+Using Compatible Programs And Mods Such As Minecraft FML (Forge) Server, Velocity, EaglerXServer, And Appropriate EaglerBridge JAR Mods
 
 ### Required Prerequisites
 - **Velocity JAR**
-- **Mincecraft FML (Forge) Server**
+- **Minecraft FML (Forge) Server**
 - **EaglerXServer**
 - **Appropriate EaglerBridge JAR Mods**
 
 ### First Step, Make A Minecraft FML (Forge) Server
-- **Download And Make A 1.12.2 Mincecraft Minecraft FML (Forge) Server [Link To Best Fit Here](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html).**
+- **Download And Make A 1.12.2 Minecraft Minecraft FML (Forge) Server [Link To Best Fit Here](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html).**
 - **Set Server To Offline Mode**
 - **Add Desired Mods Enabled On Client (EaglerXOpts) (Ex. Create Legacy, JEI) (Incompat Ex. HWYLA)**
 - **Add eaglerbridge-forge-2.0.0.jar (Located In EaglerBridge Folder) In Your Forge Mod List**
@@ -82,6 +86,19 @@ Head To https://discord.gg/TwEUqtQQnF
 - **Mod Suggestions**
 - **Bug Reports**
 - **Other Clients Using This New FML (Forge) Project And Much More!**
+
+## Credits
+
+### Gson
+This Project Uses A Modified Gson Build Built Specificly To Work In The EaglercraftX Workspace, A Java Library For Working With JSON.
+
+- Original project: Google Gson
+- Original authors: Google and Gson contributors
+- Porter: LAX1DUDE
+- Source code: Eagler-dev-kit Gson directory [Link To That Here](https://github.com/radmanplays/Eagler-dev-kit/tree/main/com/google/gson)
+- Gson is used for JSON parsing and serialization.
+
+Please refer to the original project's license for copyright and redistribution terms.
 
 ## Other Information
 This Project Is Not Open Source Just Yet.
